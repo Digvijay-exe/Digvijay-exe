@@ -71,8 +71,8 @@ public:
 ## `[04] // TELEMETRY`
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Digvijay-exe&show_icons=true&hide_border=true&bg_color=090A10&title_color=05D9E8&icon_color=FF2A6D&text_color=E6DCE5&ring_color=FF3158" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Digvijay-exe&layout=compact&hide_border=true&bg_color=090A10&title_color=05D9E8&text_color=E6DCE5" />
+  <img height="180" src="https://raw.githubusercontent.com/Digvijay-exe/Digvijay-exe/main/profile-summary-card-output/synthwave/3-stats.svg" />
+  <img height="180" src="https://raw.githubusercontent.com/Digvijay-exe/Digvijay-exe/main/profile-summary-card-output/synthwave/2-most-commit-language.svg" />
 </p>
 
 <p align="center">
