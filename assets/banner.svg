@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#FF3158" stroke-opacity=".14"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" fill-opacity=".35"/>
+    </pattern>
+    <linearGradient id="bar" x1="0" x2="1">
+      <stop offset="0" stop-color="#FF3158"/>
+      <stop offset="1" stop-color="#05D9E8"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text{font-family:'Courier New',monospace;font-weight:700}
+    .t{font-size:62px;letter-spacing:6px}
+    .c{fill:#05D9E8;animation:gc 3s infinite steps(1)}
+    .m{fill:#FF2A6D;animation:gm 3s infinite steps(1)}
+    @keyframes gc{0%,90%,100%{transform:translate(-3px,0)}92%{transform:translate(-10px,2px)}95%{transform:translate(7px,-2px)}}
+    @keyframes gm{0%,90%,100%{transform:translate(3px,0)}92%{transform:translate(10px,-2px)}95%{transform:translate(-7px,2px)}}
+    .blink{animation:b 1s infinite steps(1)}
+    @keyframes b{50%{opacity:0}}
+    .sweep{animation:s 4s linear infinite}
+    @keyframes s{from{transform:translateY(-20px)}to{transform:translateY(230px)}}
+  </style>
+  <rect width="900" height="220" fill="#090A10"/>
+  <rect width="900" height="220" fill="url(#grid)"/>
+  <text class="t c" x="450" y="110" text-anchor="middle">DIGVIJAY WARE</text>
+  <text class="t m" x="450" y="110" text-anchor="middle">DIGVIJAY WARE</text>
+  <text class="t" x="450" y="110" text-anchor="middle" fill="#F1EAF0">DIGVIJAY WARE</text>
+  <rect x="150" y="130" width="600" height="3" fill="url(#bar)"/>
+  <text x="450" y="168" text-anchor="middle" font-size="16" fill="#05D9E8" letter-spacing="5">// AI | COMPUTER VISION | EMBEDDED //</text>
+  <text x="28" y="34" font-size="13" fill="#FF3158">SYS.ONLINE</text>
+  <text class="blink" x="118" y="34" font-size="13" fill="#05D9E8">_</text>
+  <text x="872" y="34" font-size="13" fill="#FF3158" text-anchor="end">NODE//PUNE-IN</text>
+  <rect class="sweep" width="900" height="10" fill="#05D9E8" fill-opacity=".1"/>
+  <rect width="900" height="220" fill="url(#scan)"/>
+  <path d="M8 40V8H40M892 40V8H860M8 180V212H40M892 180V212H860" fill="none" stroke="#05D9E8" stroke-width="2"/>
+</svg>
